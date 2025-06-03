@@ -29,7 +29,7 @@ const Index = () => {
     {
       icon: <Smartphone className="w-8 h-8" />,
       title: "Remote Control",
-      description: "Control all your smart devices from anywhere using your smartphone or voice commands."
+      description: "Control all your smart devices from anywhere within your local network using your smartphone or voice commands."
     },
     {
       icon: <Home className="w-8 h-8" />,
@@ -190,20 +190,20 @@ const Index = () => {
             
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-gradient-to-br from-cyan-500/20 to-purple-600/20 p-6 rounded-lg backdrop-blur-sm border border-white/10">
-                <div className="text-3xl font-bold text-cyan-400 mb-2">100+</div>
-                <div className="text-gray-300">Devices Smartified</div>
+                <div className="text-3xl font-bold text-cyan-400 mb-2">∞</div>
+                <div className="text-gray-300">Possibilities</div>
               </div>
               <div className="bg-gradient-to-br from-purple-500/20 to-pink-600/20 p-6 rounded-lg backdrop-blur-sm border border-white/10">
-                <div className="text-3xl font-bold text-purple-400 mb-2">50+</div>
-                <div className="text-gray-300">Happy Clients</div>
-              </div>
-              <div className="bg-gradient-to-br from-green-500/20 to-cyan-600/20 p-6 rounded-lg backdrop-blur-sm border border-white/10">
-                <div className="text-3xl font-bold text-green-400 mb-2">24/7</div>
+                <div className="text-3xl font-bold text-purple-400 mb-2">24/7</div>
                 <div className="text-gray-300">System Monitoring</div>
               </div>
+              <div className="bg-gradient-to-br from-green-500/20 to-cyan-600/20 p-6 rounded-lg backdrop-blur-sm border border-white/10">
+                <div className="text-3xl font-bold text-green-400 mb-2">100%</div>
+                <div className="text-gray-300">Custom Solutions</div>
+              </div>
               <div className="bg-gradient-to-br from-orange-500/20 to-red-600/20 p-6 rounded-lg backdrop-blur-sm border border-white/10">
-                <div className="text-3xl font-bold text-orange-400 mb-2">∞</div>
-                <div className="text-gray-300">Possibilities</div>
+                <div className="text-3xl font-bold text-orange-400 mb-2">Fresh</div>
+                <div className="text-gray-300">Startup Vision</div>
               </div>
             </div>
           </div>
@@ -328,7 +328,7 @@ const Index = () => {
             <span className="text-xl font-bold text-white">Smartify</span>
           </div>
           <p className="text-gray-400">
-            © 2024 Smartify. All rights reserved. Making the world smarter, one device at a time.
+            © 2024 Smartify. Making the world smarter, one device at a time.
           </p>
         </div>
       </footer>
